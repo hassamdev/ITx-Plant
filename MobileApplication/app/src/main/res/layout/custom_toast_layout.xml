@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_background"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_file"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/success_anim" />
+
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="@font/baloobhai2"
+        android:text="text"
+        android:textColor="#FEFFFF"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
